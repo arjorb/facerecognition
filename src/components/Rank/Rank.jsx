@@ -4,11 +4,11 @@ const Rank = () => {
   return (
     <>
     <div className='rank'>
-    <div>
+    <div className='title'>
     <p><span>Good Morning,</span> John</p>
     </div>
-    <div>
-        <p>Your current rank is #5</p>
+    <div className='current'>
+        <p>Your current rank is <span>#5</span></p>
     </div>
     </div>
     </>

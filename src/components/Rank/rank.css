@@ -1,3 +1,19 @@
 .rank{
     text-align: center;
+    margin: 5rem 0;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.title span{
+    color: #FF7835;
+}
+.current{
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+.current span{
+    color: #0C8BF4;
 }
