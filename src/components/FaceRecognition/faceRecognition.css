@@ -1,0 +1,10 @@
+.facerecognition{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    
+}
+.facerecognition img{
+    width: 650px;
+    height: auto;
+}

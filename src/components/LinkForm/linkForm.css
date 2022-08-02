@@ -1,6 +1,57 @@
+.linkForm{
+    display: flex;
+    justify-content: center;
+}
 .form{
-    width: 869px;
-    height: 210px;
-    background-color: blanchedalmond;
-    border-radius: 15px;
+    width: 650px;
+    height: 130px;
+    box-shadow: 0px 2px 250px rgba(0, 0, 0, 0.18);
+    border-radius: 7px;
+}
+.form > .content{
+    width: 95%;
+    margin: 1.5rem auto;
+}
+.form > .content p{
+    font-size: 0.8rem;
+    color: #ADACAC;
+}
+
+.search{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+.search input{
+    flex: 4;
+}
+.search button{
+    flex: 1;
+}
+input{
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 0.5rem ;
+    background-color: #F7F7F8;
+    font-size: 0.8rem;
+}
+::placeholder{
+    font-size: 0.8rem;
+    color: rgba(103, 103, 103, 0.7);
+}
+button{
+    background-color: #F4F9FC;
+    color: #22A4B8;
+    font-weight: 500;
+    font-size: 0.85rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all  .2s ease-in-out;
+}
+button:hover{
+    background: #037f93;
+    color: white;
 }
